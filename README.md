@@ -2,6 +2,8 @@
 
 This project includes programs about office techniques.
 
+Total lines: **69**
+
 ## Main technique usages
 * MS Office (Word, PowerPoint, Excel, and OneNote)
 * Office email, robot and machine automation (using **Python**)
