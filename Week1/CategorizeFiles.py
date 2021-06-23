@@ -30,3 +30,23 @@ for filepath, folders, files in os.walk(path):
             print(os.path.join(filepath, file))
             copy(os.path.join(filepath, file), os.path.join(r'Week1\PPT', file))
 
+# Checks whether there is a folder with given name, if not create a folder and put files inside
+# Or directly put files inside
+for filepath, folders, files in os.walk(path):
+    for file in files:
+        if '.docx' in file:
+            print(os.path.join(filepath, file))
+            copy(os.path.join(filepath, file), os.path.join(r'Week1\DOCX', file))
+        elif '.ppt' in file:
+            print(os.path.join(filepath, file))
+            copy(os.path.join(filepath, file), os.path.join(r'Week1\PPT', file))
+        elif '.txt' in file:
+            if os.path.exists(r'Week1\TXT'):
+                print('Target repository exists')
+                print(os.path.join(filepath, file))
+                copy(os.path.join(filepath, file), os.path.join(r'Week1\TXT', file))
+            else:
+                print('Target repository does not exist')
+                os.mkdir(r'Week1\TXT')
+                print(os.path.join(filepath, file))
+                copy(os.path.join(filepath, file), os.path.join(r'Week1\TXT', file))
