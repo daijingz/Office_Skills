@@ -1,6 +1,6 @@
 # Office Skills
 
-This project includes programs about office techniques.
+This project includes programs about office techniques (**Using programming and other tools to make office works easy to **).
 
 Total lines: **92**
 
