@@ -2,7 +2,7 @@
 
 This project includes programs about office techniques.
 
-Total lines: **69**
+Total lines: **92**
 
 ## Main technique usages
 * MS Office (Word, PowerPoint, Excel, and OneNote)
