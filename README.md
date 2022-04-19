@@ -1,6 +1,6 @@
 # Office Skills
 
-This project includes programs about office techniques. These office techniques can help people to access files much easier.
+This project includes techniques. Most of those are external libraries of programming languages or programming tools.
 
 Total lines: **92**
 
